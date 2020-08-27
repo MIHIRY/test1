@@ -1,0 +1,27 @@
+program 5
+
+
+# performing 5 arithmetic operations
+x = int(input("enter no 1 "))
+y = int(input("enter no 2 "))
+num1 = x*y
+print(num1)
+num2 = x%y
+print(num2)
+num3 = x/y
+print(num3)
+num4 = x-y
+print(num4)
+num5 =(x+y)
+print(num5)
+
+
+output---
+
+enter no 1 10
+enter no 2 5
+50
+0
+2.0
+5
+15
