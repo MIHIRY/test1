@@ -1,0 +1,22 @@
+Program 1
+# smallest of three numbers
+
+# taking input
+num1=int(input("enter no 1 "))
+num2=int(input("enter no 2 "))
+num3=int(input("enter no 3 "))
+if((num1 < num2) and (num1 < num3)):
+   smallest = num1
+elif((num2 < num1) and (num2 < num3)):
+   smallest = num2
+else:
+ smallest = num3
+print("smallest no is ",smallest)
+
+
+output---
+enter no 1 50
+enter no 2 25
+enter no 3 30
+smallest no is  25
+
