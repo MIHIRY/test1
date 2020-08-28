@@ -1,0 +1,25 @@
+# amstrong number and sum of digits
+
+n = int(input("enter a no "))
+sum = 0 
+Sum = 0
+temp=n
+while(temp > 0) :
+
+   d = temp % 10    # d = digit  
+   sum += d**3
+   temp //= 10
+   Sum += d 
+if(n == sum):
+  print(" it is amstrong number " )
+else : 
+ print("not  ams ")
+
+print("sum",Sum)
+
+
+output---
+
+enter a no 163
+not  ams 
+sum 10
