@@ -1,0 +1,53 @@
+# to print twin prime number 
+def is_prime(n):
+   for i in range(2, n):
+      if n % i == 0:
+         return False
+   return True
+
+def generate_twins(s, e):   #s--start and e---end
+   for i in range(s, e):
+      j = i + 2
+      if(is_prime(i) and is_prime(j)):
+         print("{:d} and {:d}".format(i, j))
+
+generate_twins(2, 1000)
+
+
+
+output---
+3 and 5
+5 and 7
+11 and 13
+17 and 19
+29 and 31
+41 and 43
+59 and 61
+71 and 73
+101 and 103
+107 and 109
+137 and 139
+149 and 151
+179 and 181
+191 and 193
+197 and 199
+227 and 229
+239 and 241
+269 and 271
+281 and 283
+311 and 313
+347 and 349
+419 and 421
+431 and 433
+461 and 463
+521 and 523
+569 and 571
+599 and 601
+617 and 619
+641 and 643
+659 and 661
+809 and 811
+821 and 823
+827 and 829
+857 and 859
+881 and 883
